@@ -110,4 +110,4 @@ use judgment — not every change needs the full rigor.
 
 ## License
 
-MIT — same as the upstream project.
+MIT
