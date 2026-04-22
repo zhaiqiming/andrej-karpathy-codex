@@ -45,7 +45,7 @@ every turn. Custom prompts under `~/.codex/prompts/` become slash commands
 
 ```bash
 mkdir -p ~/.codex
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/AGENTS.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/AGENTS.md \
   -o ~/.codex/AGENTS.md
 ```
 
@@ -56,7 +56,7 @@ Every new Codex session in any project will now honor the four principles.
 New project:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/AGENTS.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/AGENTS.md \
   -o AGENTS.md
 ```
 
@@ -64,7 +64,7 @@ Existing project (append, keeping your own rules on top):
 
 ```bash
 printf '\n\n' >> AGENTS.md
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/AGENTS.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/AGENTS.md \
   >> AGENTS.md
 ```
 
@@ -74,7 +74,7 @@ Install the prompt once:
 
 ```bash
 mkdir -p ~/.codex/prompts
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/prompts/karpathy.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/prompts/karpathy.md \
   -o ~/.codex/prompts/karpathy.md
 ```
 

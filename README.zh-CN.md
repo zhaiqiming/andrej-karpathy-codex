@@ -42,7 +42,7 @@ Codex CLI 会按以下顺序合并指令：
 
 ```bash
 mkdir -p ~/.codex
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/AGENTS.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/AGENTS.md \
   -o ~/.codex/AGENTS.md
 ```
 
@@ -53,7 +53,7 @@ curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-
 新项目：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/AGENTS.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/AGENTS.md \
   -o AGENTS.md
 ```
 
@@ -61,7 +61,7 @@ curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-
 
 ```bash
 printf '\n\n' >> AGENTS.md
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/AGENTS.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/AGENTS.md \
   >> AGENTS.md
 ```
 
@@ -71,7 +71,7 @@ curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-
 
 ```bash
 mkdir -p ~/.codex/prompts
-curl -fsSL https://raw.githubusercontent.com/<your-fork>/andrej-karpathy-skills-codex/main/prompts/karpathy.md \
+curl -fsSL https://raw.githubusercontent.com/zhaiqiming/andrej-karpathy-codex/main/prompts/karpathy.md \
   -o ~/.codex/prompts/karpathy.md
 ```
 
